@@ -18,10 +18,9 @@ setup(
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=[
-      'nose',
-      'sphinx',
       'python-dotenv',
-      'discord.py'
+      'discord.py',
+      'urllib3'
     ],
     dependency_links=[
       'https://github.com/Rapptz/discord.py/archive/rewrite.zip#egg=discord.py'
